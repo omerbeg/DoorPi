@@ -32,6 +32,7 @@ Um diese Events zu registrieren, werden "DoorPi-Keyboards" genutzt, was z.B.:
 * die serielle Schnittstelle (RDM6300 als NFC Reader)
 * Webservice mit Authentifizierung
 * VoIP-Telefon
+* Nextion display
 
 sein können.
 
@@ -51,6 +52,7 @@ Eine nicht vollständige Liste der Actions ist:
 * Ausgang schalten
 * Status-Datei schreiben
 * Werte aus IP-Symcon lesen oder zurück schreiben
+* MQTT client
 * ...
 
 Durch die Kombination der Events und Actions sind fast alle gewünschten Kombinationen möglich. 
@@ -116,6 +118,7 @@ For registering these events, so-called "DoorPi-Keyboards" are used, e.g
 * the serial port (e.g. with an RDM6300 as NFC reader)
 * web service with authentification
 * VOIP phone
+* Nextion display
 
 To every event, any number of actions can be attached, which are executed synchronously or asynchronously.
 
@@ -134,6 +137,7 @@ A non-complete list of actions is:
 * set an output pin
 * write a status file
 * read values from IP-Symcon or write them back
+* MQTT client
 
 Via the combination of events and actions, almost all combinations are possible.
 
